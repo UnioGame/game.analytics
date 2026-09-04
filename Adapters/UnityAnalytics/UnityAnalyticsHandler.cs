@@ -9,6 +9,7 @@
 
     using Unity.Services.Analytics;
 
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "Game.Runtime.Services.Analytics.Adapters.UnityAnalytics", sourceAssembly: "game.analytics.adapter.unity", sourceClassName: "UnityAnalyticsHandler")]
     [Serializable]
     public class UnityAnalyticsHandler : IAnalyticsAdapter
     {
@@ -35,6 +36,7 @@
 
 #else
 
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "Game.Runtime.Services.Analytics.Adapters.UnityAnalytics", sourceAssembly: "game.analytics.adapter.unity", sourceClassName: "UnityAnalyticsHandler")]
     [Serializable]
     public class UnityAnalyticsHandler : IAnalyticsAdapter
     {

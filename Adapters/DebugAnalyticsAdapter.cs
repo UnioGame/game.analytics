@@ -13,6 +13,7 @@
 #endif
 #endif
 
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "Game.Runtime.Services.Analytics.Debug", sourceAssembly: "game.service.analytics", sourceClassName: "DebugAnalyticsAdapter")]
     [Serializable]
     public class DebugAnalyticsAdapter : IAnalyticsAdapter
     {

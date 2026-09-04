@@ -4,6 +4,7 @@ namespace UniGame.Runtime.Analytics.Adapters
     using System.Collections.Generic;
     using Cysharp.Threading.Tasks;
     using GameAnalyticsSDK;
+    using Game.Modules.Analytics;
     using Sirenix.OdinInspector;
     using UniGame.Runtime.Analytics;
     using UniGame.Runtime.Analytics.Interfaces;
@@ -16,6 +17,7 @@ namespace UniGame.Runtime.Analytics.Adapters
     using UnityEngine.AddressableAssets;
     using Object = UnityEngine.Object;
 
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "Game.Modules.Analytics", sourceAssembly: "game.analytics.gameanalytics", sourceClassName: "GameAnalyticsProvider")]
     [Serializable]
     public sealed class GameAnalyticsProvider: IAnalyticsAdapter,IGameAnalyticsATTListener
     {

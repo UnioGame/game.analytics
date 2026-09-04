@@ -8,6 +8,7 @@ namespace UniGame.Runtime.Analytics.Adapters
     using Mycom.Tracker.Unity;
     using UnityEngine;
 
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "VN.Runtime.Services", sourceAssembly: "game.analytics.adapter.mytracker", sourceClassName: "MyTrackerProvider")]
     [Serializable]
     public sealed class MyTrackerProvider: IAnalyticsAdapter
     {

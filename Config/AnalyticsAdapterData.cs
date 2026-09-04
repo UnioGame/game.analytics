@@ -5,6 +5,7 @@ namespace UniGame.Runtime.Analytics.Runtime
     using Interfaces;
     using UnityEngine;
 
+    [UnityEngine.Scripting.APIUpdating.MovedFrom(true, sourceNamespace: "Game.Runtime.Services.Analytics.Runtime", sourceAssembly: "game.service.analytics", sourceClassName: "AnalyticsAdapterData")]
     [Serializable]
     public class AnalyticsAdapterData
     {
